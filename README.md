@@ -30,11 +30,13 @@ A simple task management application built with **Node.js**, **Express**, **OOP 
 ## 📂 Project Structure    
 <img width="721" height="146" alt="image" src="https://github.com/user-attachments/assets/22afb8d0-1707-4219-bfe0-4b2b5f1a4191" />
 
-
-1. Install Dependencies
+1. Initiate npm
+   npm init -y
+   
+2. Install Dependencies
    npm install express ejs
    
-2. Run the App
+3. Run the App
    node app.js
   
 Visit the app at: http://localhost:3000 
