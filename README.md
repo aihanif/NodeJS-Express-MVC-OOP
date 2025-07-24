@@ -1,75 +1,48 @@
 # NodeJS-Express-MVC-OOP
 
-Todo Task App (MVC)
-A simple task management application built with Node.js, Express, OOP (Object-Oriented Programming), and EJS. This app follows the MVC (Model-View-Controller) architecture and allows you to add, edit, and delete tasks along with their assigned officers.
+# 📝 Todo Task App (Node.js + Express + MVC)
+  
+A simple task management application built with **Node.js**, **Express**, **OOP (Object-Oriented Programming)**, and **EJS**. This app follows the **MVC (Model-View-Controller)** architecture and allows you to add, edit, and delete tasks along with their assigned officers.
+<img width="1117" height="632" alt="image" src="https://github.com/user-attachments/assets/4adb7a22-43a7-428b-81e1-5dadb4267246" />
 
-Features
-Add new tasks with officer's name and role
 
-View task list
+  
+## 🚀 Features  
+- ✅ Add, edit, and delete tasks  
+- ✏️ Edit tasks using a Bootstrap modal  
+- 🗂️ Organized with MVC folder structure
+- 🗂️ OOP-based structure (includes inheritance & polymorphism)  
+- 📱 Responsive design with Bootstrap 5  
+- ⚙️ Easy to customize and extend  
 
-Edit task and officer details
+## ⚙️ OOP Structure  
+- Task (abstract class):
+- Properties: id, title
+- Method: getDetails() (abstract)
+- TaskOfficer (extends Task):
+- Additional properties: name, role
+- Overrides: getDetails()
 
-Delete tasks
+## ⚙️ Dependencies
+- express
+- ejs
 
-Responsive web interface using Bootstrap & EJS
+## 📂 Project Structure    
+<img width="721" height="146" alt="image" src="https://github.com/user-attachments/assets/22afb8d0-1707-4219-bfe0-4b2b5f1a4191" />
 
-OOP-based structure (includes inheritance & polymorphism)
 
-OOP Structure
-Task (abstract class):
+1. Install Dependencies
+   npm install express ejs
+   
+2. Run the App
+   node app.js
+  
+Visit the app at: http://localhost:3000 
 
-Properties: id, title
+💡 Notes 
+  
+Tasks are stored in memory and will be lost on server restart.  
+To make data persistent, integrate a database in models/taskModel.js.  
+Bootstrap 5 is included via CDN in the header.ejs partial.  
 
-Method: getDetails() (abstract)
-
-TaskOfficer (extends Task):
-
-Additional properties: name, role
-
-Overrides: getDetails()
-
-Folder Structure
-cpp
-Copy
-Edit
-models/         // OOP models & data handling
-controllers/    // Application logic
-routes/         // Express routes
-views/          // EJS views
-public/         // CSS & static files
-Installation & Usage
-Clone this repository
-
-bash
-Copy
-Edit
-git clone <repo-url>
-cd Cursor-NodeJS-Express-OOP-MVC
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Start the application
-
-bash
-Copy
-Edit
-node app.js
-Open in browser
-Visit http://localhost:3000
-
-How to Use
-Fill out the form to add a new task with officer details
-
-Click Edit to modify a task
-
-Click Delete to remove a task
-
-Dependencies
-express
-
-ejs
 
