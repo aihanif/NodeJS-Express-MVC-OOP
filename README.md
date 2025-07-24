@@ -1,6 +1,6 @@
 # NodeJS-Express-MVC-OOP
 
-# 📝 Todo Task App (Node.js + Express + MVC)
+# 📝 Assignment Task App (Node.js + Express + MVC + OOP)
   
 A simple task management application built with **Node.js**, **Express**, **OOP (Object-Oriented Programming)**, and **EJS**. This app follows the **MVC (Model-View-Controller)** architecture and allows you to add, edit, and delete tasks along with their assigned officers.
 <img width="1117" height="632" alt="image" src="https://github.com/user-attachments/assets/4adb7a22-43a7-428b-81e1-5dadb4267246" />
